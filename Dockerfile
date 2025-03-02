@@ -1,4 +1,4 @@
-FROM buildpack-deps:xenial AS build
+FROM buildpack-deps:trusty AS build
 ARG TARGET=x86_64-unknown-linux-gnu
 ARG GIT_SSL_NO_VERIFY=true
 ARG DEBIAN_FRONTEND=noninteractive
